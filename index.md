@@ -7,7 +7,7 @@
 
 ## 1. Who We Are
 
-WeSpot is operated by **WeSpot Labs, Inc.** (“WeSpot,” “we,” “our,” or “us”). We provide a family-friendly safety and location-sharing application that helps trusted groups stay connected while respecting privacy.
+WeSpot is operated by **WeSpot Labs, Inc.** (“WeSpot,” “we,” “our,” or “us”). We provide a safety and location-sharing application that helps trusted groups stay connected while respecting privacy. The App is intended for adults and other users who meet the minimum age requirements described in this Policy and in the Google Play listing.
 
 This Privacy Policy explains how WeSpot collects, uses, and safeguards personal information when you use the WeSpot Android application and related services (collectively, the “App”). If you disagree with any part of this Privacy Policy, please discontinue using the App.
 
@@ -102,9 +102,9 @@ While we strive for industry-grade security, no system is completely immune to v
 
 ---
 
-## 8. Children’s Privacy
+## 8. Age Requirements & Children’s Privacy
 
-WeSpot is rated **3+** in Google Play and designed for families, but it is **not intended for children under 13** to manage their own accounts. We do not knowingly collect personal information from children under 13. If you believe WeSpot has inadvertently collected data from a child, please contact us and we will delete it promptly.
+WeSpot is designed for **adults (18 years and older)**. Users who are under 18 should not download or use the App. We do not knowingly collect personal information from minors, and we request that parents or guardians ensure that children do not access the App. If you believe WeSpot has inadvertently collected data from a minor, please contact us immediately and we will delete it promptly.
 
 ---
 
