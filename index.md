@@ -1,209 +1,150 @@
-# WeSpot Privacy Policy
-
-**Last Updated:** November 13, 2025  
-**Effective Date:** November 13, 2025
-
----
-
-## 1. Who We Are
-
-WeSpot is operated by **WeSpot Labs, Inc.** (“WeSpot,” “we,” “our,” or “us”). We provide a safety and location-sharing application that helps trusted groups stay connected while respecting privacy. The App is intended for adults and other users who meet the minimum age requirements described in this Policy and in the Google Play listing.
-
-This Privacy Policy explains how WeSpot collects, uses, and safeguards personal information when you use the WeSpot Android application and related services (collectively, the “App”). If you disagree with any part of this Privacy Policy, please discontinue using the App.
-
----
-
-## 2. Information We Collect
-
-| Category | Details | How it is collected | Control |
-| --- | --- | --- | --- |
-| Account data | Email, password hash, display name, profile image | When you create or update your account | Required to create an account |
-| Safety & contact data | Trusted contacts, safe zones, optional medical notes | When you configure safety features | You can add, edit, or delete this data at any time |
-| Location data | Current GPS coordinates, geofence events, selected retention of history | Only when you enable location tracking or safety features | Controlled via Privacy Settings → “Allow location tracking” |
-| Driving & device telemetry | Motion sensor data for crash detection, speed data, battery level | Only when you opt in to driving safety or battery monitoring | Controlled via dedicated toggles in Privacy Settings |
-| Communications | SOS messages, group notifications, chat history | When you use in-app messaging or sharing | You can delete conversations and revoke sharing |
-| Diagnostics | Crash logs, performance metrics | Only when you opt in to crash reporting or analytics | Controlled via Privacy Settings |
-| Device information | Device model, OS version, app version | Collected automatically to support and secure the service | Cannot identify you on its own |
-
-We do **not** sell personal information or ingest social media data.
-
----
-
-## 3. How We Use Information
-
-We process personal information to:
-
-1. **Provide the App** – authenticate you, sync trusted contacts, share live locations you request, deliver emergency alerts, and send push notifications you subscribe to.  
-2. **Keep you safe** – monitor geofences you configure, process SOS messages, detect severe driving events, notify trusted contacts of low battery or crashes (only when you enable these features).  
-3. **Improve reliability** – if you opt in to anonymous analytics, we analyze feature usage, device types, and performance to improve the experience.  
-4. **Diagnose problems** – if you opt in to Crashlytics, we collect crash logs to fix issues.  
-5. **Comply with the law** – handle legal obligations, enforce our terms, and respond to lawful requests.
-
-Legal bases: **Consent** (for analytics, crash reporting, voice SOS, driving and battery monitoring), **Contract** (to deliver the service you request), **Legitimate interest** (to secure accounts and prevent abuse), and **Legal obligation** (for record keeping and legal compliance).
-
----
-
-## 4. Privacy Controls in the App
-
-You have granular control inside **Settings → Privacy Settings**:
-
-- **Allow essential data collection** – required for sign-in, securing the service, and syncing trusted contacts.  
-- **Share anonymous analytics** – off by default. When off, analytics data is not collected.  
-- **Send crash reports** – optional. When off, Crashlytics identifiers are cleared and no crash data is collected.  
-- **Allow location tracking** – toggles live and background location updates, geofencing, and Android background jobs.  
-- **Enable driving safety monitoring** – optional. Requires location tracking and device motion sensors.  
-- **Share low-battery alerts** – optional. Stops sending battery telemetry when off.  
-- **Enable voice SOS detection** – optional. When off, the microphone is not used for keyword detection.  
-- **Data retention** – choose how long location history is stored (30, 90, 180, 365, 730, or 1095 days). Default is 12 months.
-
-Changes take effect immediately and are stored securely on your device and in your profile.
-
----
-
-## 5. How We Share Information
-
-We share personal information only in these circumstances:
-
-- **Trusted contacts** you designate – live location, selected history, arrival/departure alerts, crash or SOS notifications, and low-battery warnings.  
-- **Service providers** – Firebase (Google), Google Cloud Platform, Android WorkManager, Google Maps Platform, Google Play Billing. These providers act on our behalf under contracts that require them to safeguard your data.  
-- **Legal disclosures** – if required by law or to protect users, suspected victims, or WeSpot.  
-- **Business transfers** – in the event of a merger, acquisition, or sale of assets, provided the new entity honors this policy.  
-
-We do **not** sell personal information or share it with advertising networks without your explicit consent.
-
----
-
-## 6. Data Security
-
-We protect your information using:
-
-- TLS 1.2+ encryption for all network traffic.  
-- Firebase security rules and access controls on cloud data.  
-- AES-based encryption for local caches and notification payloads stored on your device.  
-- Immediate clearing of Crashlytics/Analytics identifiers when consent is revoked.  
-- Restricted access to production systems with audit logging.
-
-While we strive for industry-grade security, no system is completely immune to vulnerabilities. We continuously monitor and improve our safeguards.
-
----
-
-## 7. Data Retention & Deletion
-
-| Data Type | Retention | How to manage |
-| --- | --- | --- |
-| Location history | According to your selected retention period (default 365 days) | Edit retention in Privacy Settings, delete history, or delete your account |
-| SOS and place alerts | Up to 24 months unless you remove them sooner | Delete alerts in the App or delete your account |
-| Account/profile info | Until you close your account | Delete account in Privacy Settings |
-| Telemetry (analytics/crash) | Only while toggles are enabled | Disable toggles to stop future collection |
-| Local device caches | Encrypted; cleared automatically when you sign out or delete your account | Sign out or delete account |
-
-**Export your data:** Privacy Settings → “Export my data” creates an encrypted JSON archive you control.  
-**Delete account & data:** Privacy Settings → “Delete account & data.” We disable services, delete Firestore collections, remove Firebase Storage files, clear encrypted local caches, revoke push tokens, and request Firebase Authentication to remove your user account. Minimal information may be retained if required by law (e.g., fraud prevention logs).
-
----
-
-## 8. Age Requirements & Children’s Privacy
-
-WeSpot is designed for **adults (18 years and older)**. Users who are under 18 should not download or use the App. We do not knowingly collect personal information from minors, and we request that parents or guardians ensure that children do not access the App. If you believe WeSpot has inadvertently collected data from a minor, please contact us immediately and we will delete it promptly.
-
----
-
-## 9. International Data Transfers
-
-We store data in the United States and may process it in other countries where our processors operate. We rely on Standard Contractual Clauses and equivalent safeguards required by applicable law. By using the App, you acknowledge that your data may be processed outside your country of residence.
-
----
-
-## 10. California Privacy Rights (CCPA/CPRA)
-
-California residents have the right to know what personal information we collect, request deletion or correction, and opt out of “sales” or “sharing” (WeSpot does neither). Exercise these rights via the in-app Privacy Settings or by contacting us. We do not discriminate against users who exercise their rights.
-
----
-
-## 11. European Economic Area & United Kingdom
-
-If you are located in the EEA or UK, you may exercise GDPR/UK GDPR rights—access, rectification, erasure, restriction, portability, objection, and withdrawal of consent—via the App or by contacting us. You may also lodge a complaint with your local supervisory authority, but we encourage you to contact us first.
-
----
-
-## 12. Third-Party Services
-
-| Service | Purpose | Privacy Policy |
-| --- | --- | --- |
-| Firebase Authentication (Google) | Account sign-in and management | https://policies.google.com/privacy |
-| Firebase Firestore & Realtime Database | Sync locations, alerts, chats | https://policies.google.com/privacy |
-| Firebase Cloud Messaging | Push notifications | https://policies.google.com/privacy |
-| Firebase Crashlytics & Analytics (optional) | Diagnostics and performance analytics | https://policies.google.com/privacy |
-| Google Maps Platform | Maps, geocoding, routing | https://policies.google.com/privacy |
-| Google Play Billing | In-app purchases and subscriptions | https://payments.google.com/payments/apis-secure/u/0/privacy |
-| Share Plus (system share sheet) | Exporting your data via Android share targets | Device vendor policies |
-
-We currently do **not** distribute WeSpot on Apple platforms. If that changes, we will update this section and notify you.
-
----
-
-## 13. Contact Us
-
-**WeSpot Labs, Inc.**  
-wespotapp@outlook.com  
-Tubod, Minglanilla, Cebu, Philippines
-
-We will respond to verified privacy requests within 30 days or the shorter period required by applicable law.
-
----
-
-## 14. Changes to This Policy
-
-We may update this Privacy Policy from time to time. If the changes are material, we will notify you through the App or email. The “Last Updated” date at the top reflects the most recent revision. Your continued use of the App after the effective date means you accept the updated policy.
-
----
-
-## 15. Consent
-
-By using WeSpot, you acknowledge that you have read and understood this Privacy Policy. You may withdraw consent at any time using the in-app controls, but doing so may disable certain features.
-
----
-
-## Appendix A – Data Categories & Purposes (Summary)
-
-| Category | Examples | Purpose |
-| --- | --- | --- |
-| Identity | Email, display name | Account creation and authentication |
-| Contact | Trusted contacts | Notify people you designate in emergencies |
-| Location | GPS coordinates, safe zones | Live sharing, geofence alerts, history (with retention controls) |
-| Usage | Screen flows, feature toggles | Improve the app when analytics is enabled |
-| Diagnostics | Crash stack traces | Debug problems when crash reporting is enabled |
-| Sensor | Accelerometer, speed | Driving safety and battery alerts when enabled |
-
----
-
-**WeSpot Labs, Inc.** – Keeping trusted groups connected while respecting your privacy.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeSpot Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #6366F1; font-size: 2.5em; margin-bottom: 10px; text-align: center; }
+        .last-updated { text-align: center; color: #666; margin-bottom: 40px; font-size: 0.9em; }
+        h2 { color: #6366F1; font-size: 1.5em; margin-top: 32px; margin-bottom: 16px; font-weight: bold; }
+        h3 { color: #6366F1; font-size: 1.2em; margin-top: 24px; margin-bottom: 12px; font-weight: bold; }
+        p, li { color: #555; margin-bottom: 12px; line-height: 1.8; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+        .contact-info { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        @media (max-width: 768px) { .container { padding: 20px; } h1 { font-size: 2em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WeSpot Privacy Policy</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> December 2024</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>We collect information that you provide directly to us, such as:</p>
+        <ul>
+            <li>Account information (name, email, phone number)</li>
+            <li>Location data when you use location sharing features</li>
+            <li>Profile information and photos</li>
+            <li>Messages and communications with friends</li>
+            <li>Event information and check-ins</li>
+            <li>Device information and usage data</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide, maintain, and improve our services</li>
+            <li>Enable location sharing with your friends and family</li>
+            <li>Send you notifications and updates</li>
+            <li>Respond to your requests and support needs</li>
+            <li>Detect and prevent fraud and abuse</li>
+            <li>Comply with legal obligations</li>
+        </ul>
+
+        <h2>3. Location Data</h2>
+        <p>Location data is a core feature of WeSpot:</p>
+        <ul>
+            <li>We only collect location data when you explicitly enable location sharing</li>
+            <li>Location data is only shared with friends you've added</li>
+            <li>You can stop sharing your location at any time</li>
+            <li>Location history is stored securely and can be deleted</li>
+            <li>We use industry-standard encryption for location data</li>
+            <li><strong>Location data retention varies by subscription tier:</strong>
+                <ul>
+                    <li>Free: 3 days</li>
+                    <li>Shield: 30 days</li>
+                    <li>Guardian: 90 days</li>
+                    <li>Circle: 365 days</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>3.1 Subscription and Payment Data</h3>
+        <p>When you purchase a subscription:</p>
+        <ul>
+            <li>Payment information is processed securely through Google Play Store or Apple App Store</li>
+            <li>We do not store your payment card details</li>
+            <li>We store subscription status, tier, and expiry date for service delivery</li>
+            <li>Subscription data is used to provide premium features and manage your account</li>
+            <li>We use Play Integrity API to verify purchases and prevent fraud</li>
+            <li>Subscription information is stored in Firebase with encryption</li>
+        </ul>
+
+        <h2>4. Data Sharing</h2>
+        <p>We do not sell your personal information. We share data only:</p>
+        <ul>
+            <li>With friends you've explicitly added to your network</li>
+            <li>With service providers who help us operate our services (Firebase, Google Maps, etc.)</li>
+            <li>When required by law or to protect rights and safety</li>
+            <li>With your explicit consent</li>
+            <li>With app store providers (Google Play, Apple App Store) for subscription management</li>
+            <li>With emergency services when you use SOS features (location only, as required)</li>
+        </ul>
+
+        <h3>4.1 Third-Party Services</h3>
+        <p>We use third-party services that may collect information:</p>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Authentication, database, analytics, crash reporting</li>
+            <li><strong>Google Maps Platform:</strong> Location services, mapping, geocoding</li>
+            <li><strong>Google Play Billing / Apple In-App Purchase:</strong> Subscription processing</li>
+            <li>These services have their own privacy policies</li>
+            <li>We ensure all third-party services comply with data protection standards</li>
+        </ul>
+
+        <h2>5. Data Security</h2>
+        <p>We implement appropriate security measures to protect your data:</p>
+        <ul>
+            <li>End-to-end encryption for sensitive communications</li>
+            <li>Secure cloud storage with Firebase</li>
+            <li>Regular security audits and updates</li>
+            <li>Access controls and authentication</li>
+        </ul>
+
+        <h2>6. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access your personal data</strong> - Request a copy of all your data</li>
+            <li><strong>Correct inaccurate information</strong> - Update your profile and account details</li>
+            <li><strong>Delete your account and data</strong> - All data will be permanently deleted</li>
+            <li><strong>Export your data</strong> - Receive a copy in a portable format</li>
+            <li><strong>Opt-out of certain data collection</strong> - Disable location sharing, analytics</li>
+            <li><strong>Withdraw consent at any time</strong> - Stop location sharing, delete account</li>
+            <li><strong>Cancel subscriptions</strong> - Through app store settings</li>
+            <li><strong>Request data portability</strong> - Export your location history, contacts, etc.</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>WeSpot is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.</p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically.</p>
+
+        <h2>9. Contact Us</h2>
+        <div class="contact-info">
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> privacy@wespot.app</li>
+                <li><strong>Support:</strong> support@wespot.app</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
